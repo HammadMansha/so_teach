@@ -88,6 +88,10 @@ static const String username="Jim.";
 static const String quizScreenText="Take the following quiz so we can design lessons for you!";
 static const String quizScreenContent="Its a basic quiz which is designed to help us understand your level of expertise in the English language. This will help us design a lesson plan which is tailored just for you. ";
 
+//--------------------Level screen text-----------------
+
+static const String levelScreenContent="Based on your test results, we recommend you start learning at:";
+static const String wantToLearn="I want to learn the basics of English language";
 
 
 

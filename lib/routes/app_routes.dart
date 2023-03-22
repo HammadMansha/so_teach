@@ -8,6 +8,9 @@ class Routes {
   static const forgotPassword = '/forgotpassword';
   static const quizScreen = '/quizscreen';
   static const quizquestionScreen = '/quizQuestionScreen';
+  static const levelScreen = '/levelScreen';
+  static const dashboardScreen = '/dashboardScreen';
+  static const settingsScreen = '/settingsScreen';
 
 
 

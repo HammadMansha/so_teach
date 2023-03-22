@@ -2,7 +2,9 @@
 import 'package:get/get.dart';
 import 'package:so_teach/controllers/quiz/quiz_question/quiz_questions_controller.dart';
 import 'package:so_teach/views/auth/signup/sign_up_verification.dart';
+import 'package:so_teach/views/level/level.dart';
 import 'package:so_teach/views/quiz/quiz_screen.dart';
+import 'package:so_teach/views/setting/setting.dart';
 
 import '../bindings/auth/login_binding.dart';
 import '../middlewears/auth/auth_middlewear.dart';
@@ -13,12 +15,13 @@ import '../views/auth/signup/sign_up.dart';
 import '../views/auth/signup/signup2.dart';
 import '../views/auth/signup_or_login.dart';
 
+import '../views/dashboard/dashboard_screen.dart';
 import '../views/quiz/quiz_questions/quiz_question_screen.dart';
 import '../views/splash/splash_screen.dart';
 import 'app_routes.dart';
 
 class AppPages {
-  static var initial = Routes.quizquestionScreen;
+  static var initial = Routes.settingsScreen;
   static final routes = [
     // <------ Splash Routes --------->
     GetPage(
@@ -108,6 +111,39 @@ class AppPages {
       //],
     ),
 
+    //--------------------Level Screen route-----------
+    GetPage(
+      name: Routes.levelScreen,
+      page: () =>  LevelScreen(),
+      // binding: ForgotPasswordBinding(),
+      // middlewares: [
+      //   RouteWelcomeMiddleware(priority: 1),
+
+      //],
+    ),
+
+
+    //--------------------Dashboard Screen route-----------
+    GetPage(
+      name: Routes.dashboardScreen,
+      page: () =>  DashboardScreen(),
+      // binding: ForgotPasswordBinding(),
+      // middlewares: [
+      //   RouteWelcomeMiddleware(priority: 1),
+
+      //],
+    ),
+
+    //--------------------Setting Screen route-----------
+    GetPage(
+      name: Routes.settingsScreen,
+      page: () =>  SettingViewScreen(),
+      // binding: ForgotPasswordBinding(),
+      // middlewares: [
+      //   RouteWelcomeMiddleware(priority: 1),
+
+      //],
+    ),
 
 
 

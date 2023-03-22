@@ -41,6 +41,8 @@ class AppAssets {
   static const String logo = "$imageDir/logo.png";
   static const String loading = "$imageDir/loading.png";
   static const String world = "$imageDir/world.png";
+  static const String level = "$imageDir/level.png";
+  static const String courseImg = "$imageDir/course_img.png";
 
 
 

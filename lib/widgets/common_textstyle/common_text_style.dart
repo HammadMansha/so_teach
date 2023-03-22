@@ -78,6 +78,11 @@ class CommonTextStyle {
       letterSpacing: 0.4,
       fontSize: 16,
       fontWeight: FontWeight.w400);
+  static TextStyle font20weight600Black= const TextStyle(
+      color: Colors.black,
+      letterSpacing: 0.4,
+      fontSize: 16,
+      fontWeight: FontWeight.w600);
 
   static TextStyle font12weight400Grey= const TextStyle(
       color: AppColors.greyText,
@@ -99,7 +104,7 @@ class CommonTextStyle {
   static TextStyle font32weight600Black= const TextStyle(
       color: Colors.black,
       letterSpacing: 0.4,
-      fontSize:32,
+      fontSize:20,
       fontWeight: FontWeight.w600);
 
   static TextStyle font32weight600Grey= const TextStyle(
