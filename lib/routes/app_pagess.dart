@@ -15,13 +15,16 @@ import '../views/auth/signup/sign_up.dart';
 import '../views/auth/signup/signup2.dart';
 import '../views/auth/signup_or_login.dart';
 
+import '../views/chatscreen/chatscreen.dart';
 import '../views/dashboard/dashboard_screen.dart';
+import '../views/profile/profile_screen.dart';
 import '../views/quiz/quiz_questions/quiz_question_screen.dart';
+import '../views/setting/settingviewscreen_2.dart';
 import '../views/splash/splash_screen.dart';
 import 'app_routes.dart';
 
 class AppPages {
-  static var initial = Routes.settingsScreen;
+  static var initial = Routes.profileScreen;
   static final routes = [
     // <------ Splash Routes --------->
     GetPage(
@@ -138,6 +141,40 @@ class AppPages {
     GetPage(
       name: Routes.settingsScreen,
       page: () =>  SettingViewScreen(),
+      // binding: ForgotPasswordBinding(),
+      // middlewares: [
+      //   RouteWelcomeMiddleware(priority: 1),
+
+      //],
+    ),
+
+//--------------------Setting Screen 2 route-----------
+    GetPage(
+      name: Routes.settingsScreen2,
+      page: () =>  SettingViewScreen2(),
+      // binding: ForgotPasswordBinding(),
+      // middlewares: [
+      //   RouteWelcomeMiddleware(priority: 1),
+
+      //],
+    ),
+
+      //--------------------Profile Screen Route-----------
+  GetPage(
+  name: Routes.profileScreen,
+  page: () =>  const ProfileScreen(),
+  // binding: ForgotPasswordBinding(),
+  // middlewares: [
+  //   RouteWelcomeMiddleware(priority: 1),
+
+  //],
+  ),
+
+
+    //--------------------Chat Screen Route-----------
+    GetPage(
+      name: Routes.chatScreen,
+      page: () =>  const ChatScreen(),
       // binding: ForgotPasswordBinding(),
       // middlewares: [
       //   RouteWelcomeMiddleware(priority: 1),

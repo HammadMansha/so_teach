@@ -11,6 +11,9 @@ class Routes {
   static const levelScreen = '/levelScreen';
   static const dashboardScreen = '/dashboardScreen';
   static const settingsScreen = '/settingsScreen';
+  static const settingsScreen2 = '/settingsScreen2';
+  static const profileScreen = '/profileScreen';
+  static const chatScreen = '/chatScreen';
 
 
 

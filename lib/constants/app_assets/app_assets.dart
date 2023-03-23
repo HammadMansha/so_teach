@@ -8,7 +8,6 @@ class AppAssets {
   static const String splash2 = "$imageDir/splash-2.png";
   static const String notification = "$imageDir/notification.png";
   //-----------------Discover Screen Images--------------
-  static const String profilePic = "$imageDir/discover_profile_pic.png";
   static const String postImage = "$imageDir/discover_post_image.png";
   static const String drawer = "$imageDir/drawer.png";
   static const String share = "$imageDir/share.png";
@@ -30,11 +29,6 @@ class AppAssets {
   static const String person = "$imageDir/person.png";
   static const String password = "$imageDir/password.png";
 
-  //-------------------Ask Question---------------
-  static const String cameraUploadImg = "$imageDir/camera_upload_image.png";
-
-  static const String img = "$imageDir/img.png";
-  static const String gif = "$imageDir/gif.png";
 
   //------------------Here new app images----------------
 
@@ -43,6 +37,9 @@ class AppAssets {
   static const String world = "$imageDir/world.png";
   static const String level = "$imageDir/level.png";
   static const String courseImg = "$imageDir/course_img.png";
+  static const String profile_pic = "$imageDir/profile_pic.png";
+  static const String book = "$imageDir/book.png";
+  static const String map = "$imageDir/map.png";
 
 
 
