@@ -92,6 +92,7 @@ static const String quizScreenContent="Its a basic quiz which is designed to hel
 
 static const String levelScreenContent="Based on your test results, we recommend you start learning at:";
 static const String wantToLearn="I want to learn the basics of English language";
+static const String calculateResult="Calculating your test results";
 
 
 

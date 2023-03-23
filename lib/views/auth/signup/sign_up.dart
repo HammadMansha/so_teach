@@ -64,7 +64,9 @@ class Signup extends StatelessWidget {
                 text: "Continue",
                 textStyle: CommonTextStyle.font16weight500White,
                 fillColor: AppColors.blackBtnAndTextColor,
-                onPressed: (){},
+                onPressed: (){
+                  Get.toNamed(Routes.signUpScreen2);
+                },
               ).marginOnly(top: 15),
 
 

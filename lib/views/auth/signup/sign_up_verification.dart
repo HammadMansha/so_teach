@@ -38,6 +38,11 @@ class SignUpVerificationScreen extends StatelessWidget {
   }
   Widget bodyData(context){
     return GetBuilder<SignUpVerificationController>(init: SignUpVerificationController(),builder: (_) {
+      Future. delayed(const Duration(seconds: 4), ()
+      {
+        Get.toNamed(Routes.login);
+      }
+      );
       return Container(
         height: Get.height,
         width: Get.width,

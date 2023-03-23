@@ -117,7 +117,9 @@ class QuizQuestionScreen extends StatelessWidget {
                     text: "Submit",
                     textStyle: CommonTextStyle.font16weight500White,
                     fillColor: AppColors.blackBtnAndTextColor,
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.toNamed(Routes.calculateScore);
+                    },
                   ),
 
 

@@ -14,6 +14,8 @@ class Routes {
   static const settingsScreen2 = '/settingsScreen2';
   static const profileScreen = '/profileScreen';
   static const chatScreen = '/chatScreen';
+  static const calender = '/calenderScreen';
+  static const calculateScore = '/calculateScore';
 
 
 

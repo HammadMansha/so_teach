@@ -11,7 +11,7 @@ class BottomNavBar extends StatefulWidget {
 }
 
 class _BottomNavBarState extends State<BottomNavBar> {
-  int currentindex = 2;
+  int currentindex = 0;
 
   void changeTabIndex(int index) {
     currentindex = index;
@@ -41,6 +41,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
       items: const <BottomNavigationBarItem>[
 
         BottomNavigationBarItem(
+          label: "",
           icon: Icon(
             Icons.home,
             color: Colors.black,
@@ -49,6 +50,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
         ),
 
         BottomNavigationBarItem(
+          label: "",
           icon: Icon(
             Icons.person_outline,
             size: 25.0,
@@ -57,6 +59,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
           backgroundColor: Color.fromRGBO(27, 29, 40, 1),
         ),
         BottomNavigationBarItem(
+          label: "",
           icon: Icon(
             Icons.message_outlined,
             size: 25.0,
@@ -65,22 +68,21 @@ class _BottomNavBarState extends State<BottomNavBar> {
           backgroundColor: Color.fromRGBO(27, 29, 40, 1),
         ),
         BottomNavigationBarItem(
-          icon: Icon(
-            Icons.person,
-            color: Colors.black,
-          ),
-          label: 'My Services',
+          icon: Icon(Icons.map_outlined,color: Colors.black,),
+          label: '',
           backgroundColor: Color.fromRGBO(27, 29, 40, 1),
         ),
         BottomNavigationBarItem(
+          label: "",
           icon: Icon(
-            Icons.supervisor_account,
+            Icons.maps_home_work_outlined,
             color: Colors.black,
+
           ),
-          label: 'Account',
           backgroundColor: Color.fromRGBO(27, 29, 40, 1),
         ),
       ],
+
       currentIndex: 2,
       selectedItemColor: const Color(0xfff8aa16),
       selectedFontSize: 12.0,

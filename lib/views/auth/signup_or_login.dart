@@ -44,13 +44,17 @@ class SignupOrLogin extends StatelessWidget {
                     text: "Sign up",
                     textStyle: CommonTextStyle.font16weight500White,
                     fillColor: AppColors.blackBtnAndTextColor,
-                    onPressed: (){},
+                    onPressed: (){
+                      Get.toNamed(Routes.signUp);
+                    },
                   ),
                 CommonButton(
                   text: "Log In",
                   textStyle: CommonTextStyle.font16weight500White,
                   fillColor: AppColors.blackBtnAndTextColor,
-                  onPressed: (){},
+                  onPressed: (){
+                    Get.toNamed(Routes.login);
+                  },
                 ).marginOnly(top: 15),
 
               ],

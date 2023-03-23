@@ -7,6 +7,7 @@ import 'package:so_teach/widgets/common_buttons/common_button.dart';
 import '../../constants/app_colors/app_colors.dart';
 import '../../controllers/profilescreen_controller/profilescreen_controller.dart';
 import '../../widgets/common_textstyle/common_text_style.dart';
+import '../../widgets/custom_navbar/custom_navbar.dart';
 
 
 class ProfileScreen extends StatelessWidget {
@@ -15,6 +16,7 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: const BottomNavBar(),
       body: SafeArea(
           child:
       bodyData(context)),
@@ -33,7 +35,7 @@ class ProfileScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text("Profile",style: CommonTextStyle.font22weight500Black,).marginOnly(top: 40),
-              CircleAvatar(
+              const CircleAvatar(
                 radius:70 ,
                 backgroundImage: AssetImage("${AppAssets.profile_pic}"),
 
@@ -45,12 +47,12 @@ class ProfileScreen extends StatelessWidget {
                   color: Colors.black,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(7.0),
-                    side:   BorderSide(
+                    side:   const BorderSide(
                       color:AppColors.blackBtnAndTextColor,
                     ),
                   ),
 
-                  child: Text("Upload New",style: TextStyle(color: Colors.white,fontSize: 10),),
+                  child: const Text("Upload New",style: TextStyle(color: Colors.white,fontSize: 10),),
                   onPressed: (){
 
               }
@@ -62,7 +64,7 @@ class ProfileScreen extends StatelessWidget {
               Row(
                 children: [
                   Text("Age",style: CommonTextStyle.font20weight600Black,),
-                  Spacer(),
+                  const Spacer(),
                   Text("12",style: CommonTextStyle.font12weight400black,),
 
 
@@ -74,7 +76,7 @@ class ProfileScreen extends StatelessWidget {
               Row(
                 children: [
                   Text("Subject",style: CommonTextStyle.font20weight600Black,),
-                  Spacer(),
+                  const Spacer(),
                   Text("English",style: CommonTextStyle.font12weight400black,),
 
 
@@ -87,7 +89,7 @@ class ProfileScreen extends StatelessWidget {
               Row(
                 children: [
                   Text("Level",style: CommonTextStyle.font20weight600Black,),
-                  Spacer(),
+                  const Spacer(),
                   Container(
                     height: 87,
                     width: Get.width/2.3,
@@ -130,7 +132,7 @@ class ProfileScreen extends StatelessWidget {
               Row(
                 children: [
                   Text("Certificate",style: CommonTextStyle.font20weight600Black,),
-                  Spacer(),
+                  const Spacer(),
                   Text("English Unit 1",style: CommonTextStyle.font12weight400black,),
 
 
@@ -181,7 +183,7 @@ class ProfileScreen extends StatelessWidget {
 
             ],
           ),
-          SizedBox(height: 60),
+          const SizedBox(height: 60),
 
 
 
@@ -229,7 +231,7 @@ class ProfileScreen extends StatelessWidget {
 
             ],
           ),
-          SizedBox(height: 60),
+          const SizedBox(height: 60),
 
 
 
@@ -242,7 +244,7 @@ class ProfileScreen extends StatelessWidget {
               itemBuilder: (BuildContext context, int index) {
                 return ListTile(
                   title:  Text("${_.certificates[index]}",style: CommonTextStyle.font12weight400Grey,).marginOnly(bottom: 30,left: 40),
-                  trailing: Icon(Icons.arrow_forward_ios,size: 15,).marginOnly(right: 20,bottom: 40),
+                  trailing: const Icon(Icons.arrow_forward_ios,size: 15,).marginOnly(right: 20,bottom: 40),
                 );
 
 

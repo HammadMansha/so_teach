@@ -56,7 +56,9 @@ class ForgotPassword extends StatelessWidget {
                 text: "Request New Password",
                 textStyle: CommonTextStyle.font16weight500White,
                 fillColor: AppColors.blackBtnAndTextColor,
-                onPressed: (){},
+                onPressed: (){
+                  Get.toNamed(Routes.login);
+                },
               ).marginOnly(top: 90),
 
 

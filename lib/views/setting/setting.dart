@@ -61,6 +61,7 @@ class SettingViewScreen extends StatelessWidget {
               controller: _.levels,
               fillcolor: Colors.white,
               hintText: "Lock Rotation",
+              readOnly: true,
 
               bordercolor: AppColors.blackBtnAndTextColor,
               radius: 7,
@@ -69,6 +70,7 @@ class SettingViewScreen extends StatelessWidget {
               controller: _.levels,
               fillcolor: Colors.white,
               hintText: "Lock Table",
+              readOnly: true,
 
               bordercolor: AppColors.blackBtnAndTextColor,
               radius: 7,

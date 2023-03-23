@@ -2,6 +2,8 @@
 import 'package:get/get.dart';
 import 'package:so_teach/controllers/quiz/quiz_question/quiz_questions_controller.dart';
 import 'package:so_teach/views/auth/signup/sign_up_verification.dart';
+import 'package:so_teach/views/calculating_score/calculatingscore_screen.dart';
+import 'package:so_teach/views/calender/calenderscreen.dart';
 import 'package:so_teach/views/level/level.dart';
 import 'package:so_teach/views/quiz/quiz_screen.dart';
 import 'package:so_teach/views/setting/setting.dart';
@@ -24,7 +26,7 @@ import '../views/splash/splash_screen.dart';
 import 'app_routes.dart';
 
 class AppPages {
-  static var initial = Routes.profileScreen;
+  static var initial = Routes.splash;
   static final routes = [
     // <------ Splash Routes --------->
     GetPage(
@@ -181,6 +183,29 @@ class AppPages {
 
       //],
     ),
+
+    //-----------------------------Calender Screen routes-------------
+    GetPage(
+      name: Routes.calender,
+      page: () =>  const CalenderScreen(),
+      // binding: ForgotPasswordBinding(),
+      // middlewares: [
+      //   RouteWelcomeMiddleware(priority: 1),
+
+      //],
+    ),
+
+    //-----------------------------Calculate Score Screen routes-------------
+    GetPage(
+      name: Routes.calculateScore,
+      page: () =>  const CalculatingScoreScreen(),
+      // binding: ForgotPasswordBinding(),
+      // middlewares: [
+      //   RouteWelcomeMiddleware(priority: 1),
+
+      //],
+    ),
+
 
 
 

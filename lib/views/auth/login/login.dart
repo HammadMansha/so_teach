@@ -61,7 +61,10 @@ class Login extends StatelessWidget{
                  text: "Log In",
                  textStyle: CommonTextStyle.font16weight500White,
                  fillColor: AppColors.blackBtnAndTextColor,
-                 onPressed: (){},
+                 onPressed: (){
+                   Get.toNamed(Routes.dashboardScreen);
+
+                 },
                ).marginOnly(top: 30),
                GestureDetector(onTap: (){Get.toNamed(Routes.forgotPassword);},child: Text("Forgot Password?",style: CommonTextStyle.font16weight400Black,).marginOnly(top: 30))
                

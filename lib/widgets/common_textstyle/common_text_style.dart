@@ -107,6 +107,12 @@ class CommonTextStyle {
       letterSpacing: 0.4,
       fontSize: 12,
       fontWeight: FontWeight.w400);
+  static TextStyle font12weight400White= const TextStyle(
+      color: AppColors.whiteColor,
+      letterSpacing: 0.4,
+      fontSize: 12,
+      fontWeight: FontWeight.w400);
+
 
   static TextStyle font32weight500Black= const TextStyle(
       color: Colors.black,

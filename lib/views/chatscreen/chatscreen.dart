@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:so_teach/constants/app_colors/app_colors.dart';
 import 'package:so_teach/controllers/chatscreen/chatscreen_controller.dart';
 import 'package:so_teach/widgets/common_textfields/commn_textfield.dart';
+import 'package:so_teach/widgets/custom_navbar/custom_navbar.dart';
 
 import '../../widgets/common_textstyle/common_text_style.dart';
 import 'dart:math' as math;
@@ -15,6 +16,7 @@ class ChatScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: bodyData(context),
+      bottomNavigationBar: BottomNavBar(),
       appBar: AppBar(
         centerTitle: true,
         title: Text("Message your teacher",style: CommonTextStyle.font20weight600Black),
