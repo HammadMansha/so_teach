@@ -1,15 +1,15 @@
 
 import 'package:get/get.dart';
-import 'package:so_teach/controllers/quiz/quiz_question/quiz_questions_controller.dart';
 import 'package:so_teach/views/auth/signup/sign_up_verification.dart';
 import 'package:so_teach/views/calculating_score/calculatingscore_screen.dart';
 import 'package:so_teach/views/calender/calenderscreen.dart';
+import 'package:so_teach/views/dictionary/dictionaryscreen.dart';
+import 'package:so_teach/views/discover/discoverscreen.dart';
 import 'package:so_teach/views/level/level.dart';
 import 'package:so_teach/views/quiz/quiz_screen.dart';
 import 'package:so_teach/views/setting/setting.dart';
 
-import '../bindings/auth/login_binding.dart';
-import '../middlewears/auth/auth_middlewear.dart';
+
 
 import '../views/auth/forogt_password/forgot_password.dart';
 import '../views/auth/login/login.dart';
@@ -205,6 +205,29 @@ class AppPages {
 
       //],
     ),
+
+    //-----------------------------Discover Screen routes-------------
+    GetPage(
+      name: Routes.discoverScreen,
+      page: () =>  const DiscoverScreen(),
+      // binding: ForgotPasswordBinding(),
+      // middlewares: [
+      //   RouteWelcomeMiddleware(priority: 1),
+
+      //],
+    ),
+
+    //-----------------------------Dictionary Screen routes-------------
+    GetPage(
+      name: Routes.dictionaryScreen,
+      page: () =>  const DictionaryScreen(),
+      // binding: ForgotPasswordBinding(),
+      // middlewares: [
+      //   RouteWelcomeMiddleware(priority: 1),
+
+      //],
+    ),
+
 
 
 

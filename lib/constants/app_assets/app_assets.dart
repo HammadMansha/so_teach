@@ -40,6 +40,9 @@ class AppAssets {
   static const String profile_pic = "$imageDir/profile_pic.png";
   static const String book = "$imageDir/book.png";
   static const String map = "$imageDir/map.png";
+  static const String sound = "$imageDir/sound.png";
+  static const String discover = "$imageDir/discover.png";
+
 
 
 

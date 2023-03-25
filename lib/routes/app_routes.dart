@@ -16,6 +16,8 @@ class Routes {
   static const chatScreen = '/chatScreen';
   static const calender = '/calenderScreen';
   static const calculateScore = '/calculateScore';
+  static const discoverScreen = '/discoverScreen';
+  static const dictionaryScreen = '/dictionaryScreen';
 
 
 

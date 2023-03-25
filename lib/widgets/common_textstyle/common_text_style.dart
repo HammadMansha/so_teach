@@ -83,6 +83,25 @@ class CommonTextStyle {
       letterSpacing: 0.4,
       fontSize: 16,
       fontWeight: FontWeight.w600);
+  static TextStyle font14weight500Black= const TextStyle(
+      color: Colors.black,
+      letterSpacing: 0.4,
+      fontSize: 14,
+      fontWeight: FontWeight.w600);
+
+  static TextStyle font14weight400Black= const TextStyle(
+      color: Colors.black,
+      letterSpacing: 0.4,
+      fontSize: 14,
+      fontWeight: FontWeight.w400);
+  static TextStyle font14weight400Green= const TextStyle(
+      color: Color(0xff265829),
+      letterSpacing: 0.4,
+      fontSize: 14,
+      fontWeight: FontWeight.w400);
+
+
+
 
   static TextStyle font8weight600Black= const TextStyle(
       color: Colors.black,

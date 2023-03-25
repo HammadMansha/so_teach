@@ -96,11 +96,19 @@ static const String calculateResult="Calculating your test results";
 
 
 
+//----------------------Discover Screen Text------------------
+
+static const String discoverHeading1="Afghanistan - A Beautiful Country with a Rich History";
+static const String discoverContent1="Afghanistan, a country located in Central Asia, is known for its rugged mountain ranges, breathtaking landscapes, and rich cultural heritage. From the snow-capped peaks of the Hindu Kush to the deserts of the south, Afghanistan is a land of stunning contrasts and incredible natural beauty.\n \nOne of the most spectacular natural wonders of Afghanistan is the Band-e Amir National Park, a series of six deep blue lakes surrounded by towering limestone cliffs. Another must-visit destination is the Bamiyan Valley, home to the ancient ruins of the Buddhas of Bamiyan, two monumental statues that were carved into the cliff face over 1,500 years ago.";
+
+  static const String discoverHeading2="Discovering the Rich Culture of Afghanistan";
+  static const String discoverContent2="Afghanistan is a country with a rich cultural heritage that spans thousands of years. The country has been home to various empires, including the Mauryan, Greco-Bactrian, Kushan, and Ghaznavid empires, all of which have left their mark on Afghan culture.One of the most iconic symbols of Afghan culture is the traditional dress, which consists of a long tunic called a perahan, loose pants called shalwar, and a turban called a lungee. The country is also famous for its intricate embroidery, which is often used to decorate clothing and household items.\n \n Despite its tumultuous history, Afghanistan has managed to preserve its unique culture and traditions. Visitors to the country can immerse themselves in the local culture by visiting markets, attending festivals, and exploring historic sites.";
 
 
+static const String discoverHeading3="Interesting Facts about Afghanistan";
+static const String discoverContent3="Afghanistan is the 41st largest country in the world, with an area of 652,230 square kilometers.\n\nThe official languages of Afghanistan are Dari and Pashto, but many other languages are spoken throughout the country.\n\nThe Afghan currency is the Afghan afghani.\n\nAfghanistan is known for its delicious cuisine, which includes dishes like kabuli palaw (rice with lamb and raisins), mantu (steamed dumplings), and ashak (stuffed pasta).\n\nThe national sport of Afghanistan is buzkashi, a game in which horsemen compete to grab a goat carcass and carry it to a goal.";
 
 
-
-
-
+//------------------------------------dictionary screen text-------------
+static const String whatWordDoYou="What word do you want to look up?";
 }

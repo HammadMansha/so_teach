@@ -53,7 +53,7 @@ class Login extends StatelessWidget{
              children: [
                SizedBox(height: 120,width:150,child: Image.asset(AppAssets.logo)),
                CommonTextField(controller: _.username,fillcolor: Colors.transparent,radius: 7,bordercolor: AppColors.textFieldBordersColor,hintText:"Username",).marginOnly(top: 50),
-               CommonTextField(controller: _.password,fillcolor: Colors.transparent,radius: 7,bordercolor: AppColors.textFieldBordersColor,hintText:"Password",).marginOnly(top: 20),
+               CommonTextField(controller: _.password,fillcolor: Colors.transparent,radius: 7,bordercolor: AppColors.textFieldBordersColor,hintText:"Password",isTextHidden: true,maxlines: 1,).marginOnly(top: 20),
 
 
 

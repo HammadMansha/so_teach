@@ -31,7 +31,11 @@ class _BottomNavBarState extends State<BottomNavBar> {
     } else if (currentindex == 2) {
       Get.toNamed(Routes.chatScreen);
     } else if (currentindex == 3) {
+      Get.toNamed(Routes.dictionaryScreen);
+
     } else if (currentindex == 4) {
+      Get.toNamed(Routes.discoverScreen);
+
     }
   }
 

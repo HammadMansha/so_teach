@@ -54,9 +54,9 @@ class Signup extends StatelessWidget {
               CommonTextField(controller: _.firstName,fillcolor: Colors.transparent,radius: 7,bordercolor: AppColors.textFieldBordersColor,hintText:"First Name",).marginOnly(top: 50),
               CommonTextField(controller: _.lastName,fillcolor: Colors.transparent,radius: 7,bordercolor: AppColors.textFieldBordersColor,hintText:"Last Name",).marginOnly(top: 20),
               CommonTextField(controller: _.userName,fillcolor: Colors.transparent,radius: 7,bordercolor: AppColors.textFieldBordersColor,hintText:"Username",).marginOnly(top: 20),
-              CommonTextField(controller: _.password,fillcolor: Colors.transparent,radius: 7,bordercolor: AppColors.textFieldBordersColor,hintText:"Password",).marginOnly(top: 20),
+              CommonTextField(controller: _.password,fillcolor: Colors.transparent,radius: 7,bordercolor: AppColors.textFieldBordersColor,hintText:"Password",maxlines: 1,isTextHidden: true,).marginOnly(top: 20),
 
-              CommonTextField(controller: _.confirmPassword,fillcolor: Colors.transparent,radius: 7,bordercolor: AppColors.textFieldBordersColor,hintText:"Confirm Password",).marginOnly(top: 20),
+              CommonTextField(controller: _.confirmPassword,isTextHidden:true,fillcolor: Colors.transparent,radius: 7,bordercolor: AppColors.textFieldBordersColor,hintText:"Confirm Password",maxlines: 1,).marginOnly(top: 20),
 
 
 

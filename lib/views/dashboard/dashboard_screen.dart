@@ -218,9 +218,10 @@ class DashboardScreen extends StatelessWidget {
                             height: 150,
                             width: Get.width,
                             decoration: BoxDecoration(
+                              color: Colors.black,
                               borderRadius: BorderRadius.circular(10),
                               border: Border.all(
-                                color: AppColors.textFieldBordersColor,
+                                color: AppColors.black,
                                 width: 2,
                               ),
                             ),
@@ -245,7 +246,7 @@ class DashboardScreen extends StatelessWidget {
                                         child: Text(
                                           "Take the final exam to test your development in English Language",
                                           style: CommonTextStyle
-                                              .font12weight400Grey,
+                                              .font12weight400White,
                                           maxLines: 3,
                                         ).marginOnly(top: 4)),
                                     
@@ -253,7 +254,7 @@ class DashboardScreen extends StatelessWidget {
                                       height: 40,
                                       child: CommonButton(text: "Start Exam", textStyle:CommonTextStyle.font12weight400White, onPressed:(){
                                         Get.toNamed(Routes.quizScreen);
-                                      }, fillColor: AppColors.blackBtnAndTextColor,
+                                      }, fillColor: Color(0xff4a4a4a),
 
                                       width: 100,
                                       ).marginOnly(top:10),
