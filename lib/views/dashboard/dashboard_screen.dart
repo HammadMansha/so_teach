@@ -253,7 +253,7 @@ class DashboardScreen extends StatelessWidget {
                                     SizedBox(
                                       height: 40,
                                       child: CommonButton(text: "Start Exam", textStyle:CommonTextStyle.font12weight400White, onPressed:(){
-                                        Get.toNamed(Routes.quizScreen);
+                                        // Get.toNamed(Routes.quizScreen);
                                       }, fillColor: Color(0xff4a4a4a),
 
                                       width: 100,

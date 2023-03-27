@@ -40,7 +40,7 @@ class SignUpVerificationScreen extends StatelessWidget {
     return GetBuilder<SignUpVerificationController>(init: SignUpVerificationController(),builder: (_) {
       Future. delayed(const Duration(seconds: 4), ()
       {
-        Get.toNamed(Routes.login);
+        Get.toNamed(Routes.quizScreen);
       }
       );
       return Container(
